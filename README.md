@@ -57,13 +57,24 @@ The models are implemented in **PyTorch** and can be used in standard Python env
 
 If you want to run the training code for **classic EEG models**, you will also need:
 
-| Package     | Version | Note                                           |
-|-------------|:-------:|------------------------------------------------|
-| `mne`       | 0.22.2  | EEG preprocessing and data handling            |
-| `pyriemann` | 0.3     | Riemannian geometry-based EEG classification   |
-| `lightgbm`  | 3.3.0   | Gradient boosting models for tabular features  |
-| `meegkit`   | 0.1.0   | EEG/MEG signal processing utilities           |
-| `scipy`     | 1.11.4  | General scientific computing utilities        |
+#### For all downstream tasks except SSVEP
+| Package | Version | Note |
+| :--- | :---: | :--- |
+| `scipy` | 1.16.0 | General scientific computing utilities |
+| `numpy` | 1.25.2 | Core numerical computing library |
+| `mne` | 1.9.0 | EEG preprocessing and data handling |
+| `pyriemann` | 0.6 | Riemannian geometry-based EEG classification |
+| `scikit-learn` | 1.4.2 | Machine learning toolkit |
+| `lightgbm` | 4.6.0 | Gradient boosting models for tabular features |
+
+#### Specifically for SSVEP task as meegkit toolbox has compatibility issue with others
+| Package | Version | Note |
+| :--- | :---: | :--- |
+| `scipy` | 1.15.3 | General scientific computing utilities |
+| `numpy` | 2.2.6 | Core numerical computing library |
+| `mne` | 1.9.0 | EEG preprocessing and data handling |
+| `scikit-learn` | 1.7.0 | Machine learning toolkit |
+| `meegkit` | 0.1.9 | EEG/MEG signal processing utilities |
 
 ---
 

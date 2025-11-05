@@ -18,7 +18,7 @@ All rights reserved.
 
 If you use our model or find it useful, please cite the following paper:
 
-> *Currently under double-blind review; the citation will be updated as soon as it is published. In the meantime, you are welcome to read our previous version on* [*OpenReview*](https://openreview.net/forum?id=V5Zn0VVvBE).
+> *Currently under double-blind review; the citation will be updated as soon as it is published. In the meantime, you are welcome to read our previous version on* [*OpenReview*](https://openreview.net/forum?id=V5Zn0VVvBE), which got rejected in ICLR 2025.
 
 ```bibtex
 @misc{

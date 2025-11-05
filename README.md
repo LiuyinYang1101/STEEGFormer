@@ -1,80 +1,124 @@
-# STEEGFormer
+# \# ST-EEGFormer
 
-A fair EEG BCI benchmark framework and a simple STEEGFormer foundation model
+# 
 
-Codes written by Liuyin Yang (liuyin.yang@kuleuven.be), Qiang Sun (qiang.sun@kuluven.be)
+# \*A fair EEG-BCI benchmark framework and a simple ST-EEGFormer foundation model.\*
 
+# 
 
+# \*\*Authors\*\*  
 
-All rights reserved.
+# Liuyin Yang (liuyin.yang@kuleuven.be)  
 
+# Qiang Sun (qiang.sun@kuleuven.be)
 
+# 
 
+# All rights reserved.
 
+# 
 
-\# 1.0 Environment:
+# ---
 
+# 
 
+# \## 1. Environment
 
-The model is trained with PyTorch and thus can be used in Python environments. The following packages meet the minimal requirements to load the model.
+# 
 
+# The models are implemented in \*\*PyTorch\*\* and can be used in standard Python environments.
 
+# 
 
-\*The Python version used in the pre-training phase is Python 3.11.5.
+# > \*\*Python version used for pre-training:\*\* `Python 3.11.5`
 
+# 
 
+# \### 1.1 Core Dependencies (for loading \& using the model)
 
-|   Package   |   Version   |   Note                                    |
+# 
 
-|-------------|:-----------:|------------------------------------------:|
+# | Package | Version | Note                                             |
 
-|  timm       |  1.0.10     |Basic implementations of transformer models|
+# |---------|:-------:|--------------------------------------------------|
 
-|  torch      |  2.4.1      |Deep learning framework                    |
+# | `timm`  | 1.0.10  | Basic implementations of transformer models      |
 
+# | `torch` | 2.4.1   | Deep learning framework                          |
 
+# 
 
-If you want to run the training codes for foundation models and classic neural networks, you will also need the following packages:
+# \### 1.2 Additional Dependencies (for training foundation \& classic neural models)
 
+# 
 
+# | Package       | Version | Note                                      |
 
-|   Package   |   Version   |   Note                                    |
+# |---------------|:-------:|-------------------------------------------|
 
-|-------------|:-----------:|------------------------------------------:|
+# | `wandb`       | 0.22.2  | Training monitoring and experiment logging |
 
-|  wandb      |  0.22.2     |For training monitor and data logging      |
+# | `mat73`       | 0.65    | Loading MATLAB v7.3 `.mat` data files     |
 
-|  mat73      |  0.65       |Data loading                               |
+# | `scikit-learn`| 1.3.2   | Evaluation metrics and utilities          |
 
-|scikit-learn |  1.3.2      |Classification metrics                     |
+# 
 
+# \### 1.3 Classic EEG Model Dependencies
 
+# 
 
-If you want to run the training codes for classic models, you will also need the following packages:
+# If you want to run the training code for \*\*classic EEG models\*\* (e.g. Riemannian / traditional ML baselines), you will also need:
 
+# 
 
+# | Package     | Version | Note                                           |
 
-|   Package   |   Version   |   Note                                    |
+# |-------------|:-------:|------------------------------------------------|
 
-|-------------|:-----------:|------------------------------------------:|
+# | `mne`       | 0.22.2  | EEG preprocessing and data handling            |
 
-|  mne        |  0.22.2     |For training monitor and data logging      |
+# | `pyriemann` | 0.3     | Riemannian geometry-based EEG classification   |
 
-|  pyriemann  |  0.65       |Data loading                               |
+# | `lightgbm`  | 3.3.0   | Gradient boosting models for tabular features  |
 
-|  lightgbm   |  1.3.2      |Classification metrics                     |
+# | `meegkit`   | 0.1.0   | EEG/MEG signal processing utilities           |
 
-|  meegkit    |  1.3.2      |Classification metrics                     |
+# | `scipy`     | 1.11.4  | General scientific computing utilities        |
 
-|  scipy      |  1.3.2      |Classification metrics                     |
+# 
 
+# \*(Versions above are examples; match them to your actual `requirements.txt` if needed.)\*
 
+# 
 
+# ---
 
+# 
 
-\# 2.0 Model specs:
+# \## 2. Model Specs
 
-ST-EEGFormer works with 128Hz EEG Data. During pre-training, it was pre-trained to reconstruct 6-second EEG segments with up to 145 different channels. Therefore, we recommend using it with maximally 6-second EEG segments under a 128 Hz sampling rate. The available channels can be found in \\pretrain\\senloc\_file.
+# 
 
+# \*\*ST-EEGFormer\*\* is designed for \*\*128 Hz EEG data\*\*.
 
+# 
+
+# \- During pre-training, the model was trained to \*\*reconstruct 6-second EEG segments\*\*.  
+
+# \- It supports up to \*\*145 EEG channels\*\*.  
+
+# \- We recommend using it with \*\*segments up to 6 seconds\*\* sampled at \*\*128 Hz\*\*.
+
+# 
+
+# The list of available/pretrained channels can be found in:
+
+# 
+
+# ```text
+
+# pretrain/senloc\_file
+
+# 
 

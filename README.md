@@ -1,6 +1,6 @@
 ﻿# ST-EEGFormer
 <p align="center">
-  <img src="assets/graphic_overview.png" alt="ST-EEGFormer architecture" width="800">
+  <img src="assets/graphic_overview.png" alt="ST-EEGFormer architecture" width="600">
 </p>
 
 

@@ -1,6 +1,6 @@
 ﻿# ST-EEGFormer
 <p align="center">
-  <img src="assets/graphic_overview.png" alt="ST-EEGFormer architecture" width="400">
+  <img src="assets/graphic_overview.png" alt="ST-EEGFormer architecture" width="800">
 </p>
 
 
@@ -8,9 +8,9 @@
 
 **Authors:**  
 Liuyin Yang ([liuyin.yang@kuleuven.be](mailto:liuyin.yang@kuleuven.be))  
-Qiang Sun ([qiang.sun@kuleuven.be](mailto:qiang.sun@kuleuven.be))
-Ang Li ([ang_lii@outlook.com](mailto:ang_lii@outlook.com))
-Marc Van Hulle ([marc.vanhulle@kuleuven.be](mailto:marc.vanhulle@kuleuven.be))
+Qiang Sun ([qiang.sun@kuleuven.be](mailto:qiang.sun@kuleuven.be))  
+Ang Li ([ang_lii@outlook.com](mailto:ang_lii@outlook.com))  
+Marc Van Hulle ([marc.vanhulle@kuleuven.be](mailto:marc.vanhulle@kuleuven.be))  
 
 All rights reserved.
 

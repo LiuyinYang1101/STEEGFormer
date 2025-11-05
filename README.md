@@ -107,9 +107,14 @@ where the models are slightly modified (they include additional channel embeddin
 ## 5. Pre-trained Models
 
 We release small, base, and large ST-EEGFormer models in the GitHub releases.
+
 [ST-EEGFormer-small release](https://github.com/LiuyinYang1101/STEEGFormer/releases/tag/ST-EEGFormer-small).
+
 [ST-EEGFormer-base release](https://github.com/LiuyinYang1101/STEEGFormer/releases/tag/ST-EEGFormer-base).
+
 [ST-EEGFormer-large release](https://github.com/LiuyinYang1101/STEEGFormer/releases/tag/ST-EEGFormer-large).
 
 Additionally, we provide large-ST-EEGFormerV2, which has undergone further pre-training on the HBN datasets for the EEG 2025 Foundation Challenge.
+
 [ST-EEGFormer-large release-HBN](https://github.com/LiuyinYang1101/STEEGFormer/releases/tag/ST-EEGFormer-largeV2).
+

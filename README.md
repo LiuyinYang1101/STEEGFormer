@@ -71,3 +71,4 @@ A Jupyter notebook containing a minimal tutorial on how to use the model can be 
 
 ```text
 easy_start/simple_example.ipynb
+```

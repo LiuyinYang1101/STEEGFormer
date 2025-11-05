@@ -72,3 +72,41 @@ A Jupyter notebook containing a minimal tutorial on how to use the model can be 
 ```text
 easy_start/simple_example.ipynb
 ```
+
+## 4. Reproducibility
+
+If you want to pre-train a model, use the script:
+
+```text
+pretrain/ddp_train_eeg.py
+```
+
+You will need to prepare your own custom dataset that provides EEG segments and the corresponding channel indices.
+
+If you want to run benchmark experiments on downstream BCI tasks using neural networks, use:
+
+```text
+benchmark/neural_networks/wandb_downstream_evaluation.py
+```
+
+For dataset preparation and configuration details, please refer to the README file in:
+
+```text
+benchmark/neural_networks
+```
+
+For the EEG 2025 Foundation Challenge, the code is located in:
+
+```text
+eeg_foundation_2025
+```
+
+where the models are slightly modified (they include additional channel embeddings for the HBN dataset).
+
+
+## 5. Pre-trained Models
+
+We release small, base, and large ST-EEGFormer models in the GitHub releases.
+
+Additionally, we provide large-ST-EEGFormerV2, which has undergone further pre-training on the HBN datasets for the EEG 2025 Foundation Challenge.
+

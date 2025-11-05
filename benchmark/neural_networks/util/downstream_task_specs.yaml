@@ -1,0 +1,120 @@
+dtu:
+  num_classes: 1
+  0: 0
+
+alzheimer:
+  num_classes: 3
+  C: 0
+  A: 1
+  F: 2
+
+#bci_comp_iv2a
+bci_iv2a:
+  num_classes: 4
+  left_hand: 0
+  right_hand: 1
+  feet: 2
+  tongue: 3
+
+
+#binocular_ssvep:
+binocular_ssvep:
+  num_classes: 40
+  0: 0
+  1: 1
+  2: 2
+  3: 3
+  4: 4
+  5: 5
+  6: 6
+  7: 7
+  8: 8
+  9: 9
+  10: 10
+  11: 11
+  12: 12
+  13: 13
+  14: 14
+  15: 15
+  16: 16
+  17: 17
+  18: 18
+  19: 19
+  20: 20
+  21: 21
+  22: 22
+  23: 23
+  24: 24
+  25: 25
+  26: 26
+  27: 27
+  28: 28
+  29: 29
+  30: 30
+  31: 31
+  32: 32
+  33: 33
+  34: 34
+  35: 35
+  36: 36
+  37: 37
+  38: 38
+  39: 39
+  
+  
+# inner_speech
+inner_speech:
+  num_classes: 4
+  Arriba/Imagined: 0
+  Abajo/Imagined: 1
+  Derecha/Imagined: 2
+  Izquierda/Imagined: 3
+
+
+# error
+error:
+  num_classes: 2
+  no_error: 0
+  error: 1
+  
+
+# Upper_limb
+upper_limb_motorexecution:
+  num_classes: 7
+  rest: 0
+  hand_open: 1
+  hand_close: 2
+  elbow_flexion: 3
+  elbow_extension: 4
+  pronation: 5
+  supination: 6
+  
+upper_limb_motorimagination:
+  num_classes: 7
+  rest: 0
+  hand_open: 1
+  hand_close: 2
+  elbow_flexion: 3
+  elbow_extension: 4
+  pronation: 5
+  supination: 6
+  
+labram_upper_limb_motorexecution:
+  num_classes: 7
+  rest: 0
+  hand_open: 1
+  hand_close: 2
+  elbow_flexion: 3
+  elbow_extension: 4
+  pronation: 5
+  supination: 6
+  
+labram_upper_limb_motorimagination:
+  num_classes: 7
+  rest: 0
+  hand_open: 1
+  hand_close: 2
+  elbow_flexion: 3
+  elbow_extension: 4
+  pronation: 5
+  supination: 6

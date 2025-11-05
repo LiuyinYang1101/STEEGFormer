@@ -1,0 +1,9 @@
+{   
+    "dataset_config":{   
+        "data_folder":"/optimized_pretrain_data",
+        "dataset_to_use":["bci_comp_iv2b_train", "ssvep"],
+        "valid_dataset_to_use":["bci_comp_iv2b_test"],
+        "fs":128
+    }
+    
+}

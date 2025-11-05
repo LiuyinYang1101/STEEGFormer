@@ -1,0 +1,14 @@
+# for all downstream tasks except SSVEP
+scipy=1.16.0
+numpy=1.25.2
+mne=1.9.0
+pyriemann=0.6
+scikit-learn=1.4.2
+lightgbm=4.6.0
+
+# specifically for SSVEP as meegkit toolbox has compatibility issue with others
+scipy=1.15.3
+numpy=2.2.6
+mne=1.9.0
+scikit-learn=1.7.0
+meegkit=0.1.9

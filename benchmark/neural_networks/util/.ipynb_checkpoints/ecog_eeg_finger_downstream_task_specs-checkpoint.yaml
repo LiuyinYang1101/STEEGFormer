@@ -1,0 +1,51 @@
+# Finger
+ecog_finger:
+  num_classes: 7
+  0: 0
+  1: 1
+  2: 2
+  3: 3
+  4: 4
+  5: 5
+  6: 6
+  
+# Upper_limb
+upper_limb_motorexecution:
+  num_classes: 7
+  rest: 0
+  hand_open: 1
+  hand_close: 2
+  elbow_flexion: 3
+  elbow_extension: 4
+  pronation: 5
+  supination: 6
+  
+upper_limb_motorimagination:
+  num_classes: 7
+  rest: 0
+  hand_open: 1
+  hand_close: 2
+  elbow_flexion: 3
+  elbow_extension: 4
+  pronation: 5
+  supination: 6
+  
+labram_upper_limb_motorexecution:
+  num_classes: 7
+  rest: 0
+  hand_open: 1
+  hand_close: 2
+  elbow_flexion: 3
+  elbow_extension: 4
+  pronation: 5
+  supination: 6
+  
+labram_upper_limb_motorimagination:
+  num_classes: 7
+  rest: 0
+  hand_open: 1
+  hand_close: 2
+  elbow_flexion: 3
+  elbow_extension: 4
+  pronation: 5
+  supination: 6

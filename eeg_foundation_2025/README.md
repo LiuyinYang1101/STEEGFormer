@@ -80,6 +80,6 @@ You will need the following pre-trained model to reproduce this experiment:
 
 Below is the corresponding learning curve.
 
-<p align="center">
+<p align="left">
   <img src="learning_curves/lora_avg.png" alt="Learning Curve" width="300">
 </p>

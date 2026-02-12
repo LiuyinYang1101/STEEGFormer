@@ -3,16 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="https://eeg2025.github.io/leaderboard/">
-    <img src="https://img.shields.io/badge/NeurIPS_2025_EEG_Foundation_Challenge-🥇_1st_Place-gold" alt="NeurIPS Winner">
-  </a>
-  <a href="https://openreview.net/forum?id=5Xwm8e6vbh">
-    <img src="https://img.shields.io/badge/OpenReview-ICLR'26-8c1b13.svg" alt="Paper">
-  </a>
-  <a href="https://github.com/LiuyinYang1101/STEEGFormer/releases">
-    <img src="https://img.shields.io/badge/Download-Pretrained_Models-brightgreen?logo=github&logoColor=white" alt="Download Models">
-  </a>
-  <img src="https://img.shields.io/badge/license-MIT-green.svg" alt="License">
+  <a href="https://eeg2025.github.io/leaderboard/"><img src="https://img.shields.io/badge/NeurIPS_2025_EEG_Foundation_Challenge-🥇_1st_Place-gold" alt="NeurIPS Winner"></a> <a href="https://openreview.net/forum?id=5Xwm8e6vbh"><img src="https://img.shields.io/badge/OpenReview-ICLR'26-8c1b13.svg" alt="Paper"></a> <a href="https://github.com/LiuyinYang1101/STEEGFormer/releases"><img src="https://img.shields.io/badge/Download-Pretrained_Models-brightgreen?logo=github&logoColor=white" alt="Download Models"></a> <img src="https://img.shields.io/badge/license-MIT-green.svg" alt="License">
 </p>
 
 **Official PyTorch implementation of the paper:**

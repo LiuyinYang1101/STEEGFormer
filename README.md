@@ -51,6 +51,12 @@ Our framework provides a transparent and rigorous benchmark for EEG foundation m
 
 As a baseline for this benchmark, we introduce ST-EEGFormer: a minimal, ViT-based foundation model. To ensure transparency and ease of reproduction, the model is pre-trained purely through Masked Autoencoder (MAE) reconstruction.
 
+### 2. Benchmark Results
+Our comprehensive evaluation reveals that while classic neural network decoders remain highly competitive, EEG foundation models often struggle when restricted to linear probing. However, when fully fine-tuned, ST-EEGFormer-large—achieves the best average rank (5.61) among all compared models, despite its large parameter count (>300M).
+
+<p align="center">
+  <img src="assets/rank_figure3.png" alt="ST-EEGFormer Benchmark Results" width="700">
+</p>
 
 ## License
 

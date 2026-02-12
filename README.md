@@ -22,12 +22,12 @@
 ---
 
 ## Authors
-| | |
-| :--- | :--- |
-| **Liuyin Yang**<br>[liuyin.yang@kuleuven.be](mailto:liuyin.yang@kuleuven.be) | **Qiang Sun**<br>[qiang.sun@kuleuven.be](mailto:qiang.sun@kuleuven.be) |
-| **Ang Li**<br>[ang_lii@outlook.com](mailto:ang_lii@outlook.com) | **Marc Van Hulle**<br>[marc.vanhulle@kuleuven.be](mailto:marc.vanhulle@kuleuven.be) |
 
-**Computational Neuroscience Group**, KU Leuven.  
+| **Liuyin Yang** | **Qiang Sun** | **Ang Li** | **Marc Van Hulle** |
+| :--- | :--- | :--- | :--- |
+| [liuyin.yang@kuleuven.be](mailto:liuyin.yang@kuleuven.be) | [qiang.sun@kuleuven.be](mailto:qiang.sun@kuleuven.be) | [ang_lii@outlook.com](mailto:ang_lii@outlook.com) | [marc.vanhulle@kuleuven.be](mailto:marc.vanhulle@kuleuven.be) |
+
+**Computational Neuroscience Group**, KU Leuven.
 
 
 ## License

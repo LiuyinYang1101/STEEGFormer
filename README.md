@@ -21,27 +21,33 @@
 
 ---
 
-**Authors:**  
-Liuyin Yang ([liuyin.yang@kuleuven.be](mailto:liuyin.yang@kuleuven.be))  
-Qiang Sun ([qiang.sun@kuleuven.be](mailto:qiang.sun@kuleuven.be))  
-Ang Li ([ang_lii@outlook.com](mailto:ang_lii@outlook.com))  
-Marc Van Hulle ([marc.vanhulle@kuleuven.be](mailto:marc.vanhulle@kuleuven.be))  
+## Authors
+| | |
+| :--- | :--- |
+| **Liuyin Yang**<br>[liuyin.yang@kuleuven.be](mailto:liuyin.yang@kuleuven.be) | **Qiang Sun**<br>[qiang.sun@kuleuven.be](mailto:qiang.sun@kuleuven.be) |
+| **Ang Li**<br>[ang_lii@outlook.com](mailto:ang_lii@outlook.com) | **Marc Van Hulle**<br>[marc.vanhulle@kuleuven.be](mailto:marc.vanhulle@kuleuven.be) |
 
-All rights reserved.
+**Computational Neuroscience Group**, KU Leuven.  
+
+
+## License
+
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details. 
+
+> **Note:** The MIT license applies to the **source code** provided in this repository. The associated research paper, architectural diagrams, and the name "ST-EEGFormer" are © 2026 Computational Neuroscience Group, KU Leuven. All rights reserved.
 
 ## Citation
 
 If you use our model or find it useful, please cite the following paper:
 
-> *Currently under double-blind review; the citation will be updated as soon as it is published. In the meantime, you are welcome to read our previous version on* [*OpenReview*](https://openreview.net/forum?id=V5Zn0VVvBE), which got rejected in ICLR 2025.
-
 ```bibtex
-@misc{
-  yang2025learning,
-  title={Learning Robust {EEG} Representations with a Large Spatiotemporal Transformer as a Foundation Model},
-  author={Liuyin Yang and Marc M. Van Hulle},
-  year={2025},
-  url={https://openreview.net/forum?id=V5Zn0VVvBE}
+@inproceedings{
+yang2026_steegformer,
+title={Are {EEG} Foundation Models Worth It? Comparative Evaluation with Traditional Decoders in Diverse {BCI} Tasks},
+author={Liuyin Yang and Qiang Sun and Ang Li and Marc M. Van Hulle},
+booktitle={The Fourteenth International Conference on Learning Representations},
+year={2026},
+url={https://openreview.net/forum?id=5Xwm8e6vbh}
 }
 ```
 

@@ -43,13 +43,13 @@ url={https://openreview.net/forum?id=5Xwm8e6vbh}
 ```
 
 ### 1. Methodology
-Our framework provides a transparent and rigorous benchmark for EEG foundation models by evaluating them across 6 distinct decoding protocols, ranging from standard population decoding to challenging zero-shot and transfer learning scenarios.
+Our framework provides a transparent and rigorous benchmark for EEG foundation models by evaluating them across 6 distinct decoding protocols, ranging from simple population decoding to challenging zero-shot and transfer learning scenarios.
 
 <p align="center">
   <img src="assets/graphic_overview.png" alt="ST-EEGFormer Architecture and Evaluation Protocols" width="700">
 </p>
 
-As a baseline for this benchmark, we introduce ST-EEGFormer: a minimal, ViT-based foundation model. To ensure transparency and ease of reproduction, the model is pre-trained purely through Masked Autoencoder (MAE) reconstruction.
+As a baseline for this benchmark, we introduce ST-EEGFormer: a minimal, ViT-based foundation model. To ensure transparency and ease of reproduction, the model is pre-trained purely through Masked Autoencoder (MAE) reconstruction on raw EEG signals.
 
 ### 2. Benchmark Results
 Our comprehensive evaluation reveals that while classic neural network decoders remain highly competitive, EEG foundation models often struggle when restricted to linear probing. However, when fully fine-tuned, ST-EEGFormer-large—achieves the best average rank (5.61) among all compared models, despite its large parameter count (>300M).

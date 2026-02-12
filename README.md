@@ -11,7 +11,7 @@
     <img src="https://img.shields.io/badge/OpenReview-ICLR'25-8c1b13.svg" alt="Paper">
   </a>
   <a href="https://eeg2025.github.io/leaderboard/">
-    <img src="https://img.shields.io/badge/NeurIPS_Challenge-1st_Place-gold.svg?logo=google-scholar&logoColor=white" alt="NeurIPS Winner">
+    <img src="https://img.shields.io/badge/NeurIPS_2025_EEG_Foundation_Challenge-1st_Place-gold.svg?logo=google-scholar&logoColor=white" alt="NeurIPS Winner">
   </a>
 </p>
 

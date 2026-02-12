@@ -1,4 +1,3 @@
-﻿# ST-EEGFormer
 <p align="center">
   <img src="assets/steegformer_logo.png" alt="ST-EEGFormer Logo">
 </p>
@@ -16,7 +15,10 @@
   <img src="https://img.shields.io/badge/license-MIT-green.svg" alt="License">
 </p>
 
-*A fair EEG-BCI benchmark framework and a simple yet powerful ST-EEGFormer foundation model.*
+# ST-EEGFormer
+**Official PyTorch implementation of the paper:** > [**Are EEG Foundation Models Worth It? Comparative Evaluation with Traditional Decoders in Diverse BCI Tasks**](https://openreview.net/forum?id=5Xwm8e6vbh)
+
+---
 
 **Authors:**  
 Liuyin Yang ([liuyin.yang@kuleuven.be](mailto:liuyin.yang@kuleuven.be))  

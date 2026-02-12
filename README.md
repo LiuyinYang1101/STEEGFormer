@@ -78,8 +78,9 @@ The models are implemented in **PyTorch** and can be used in standard Python env
 
 ### 3.1 Classic EEG Model Dependencies
 If you want to run the training code for **classic EEG models**, you will also need:
+
 #### For all downstream tasks except SSVEP
-| Category | Package | Version | Note |
+| Package | Version | Note |
 | :--- | :---: | :--- |
 | `scipy` | 1.16.0 | General scientific computing utilities |
 | `numpy` | 1.25.2 | Core numerical computing library |
@@ -87,6 +88,8 @@ If you want to run the training code for **classic EEG models**, you will also n
 | `pyriemann` | 0.6 | Riemannian geometry-based EEG classification |
 | `scikit-learn` | 1.4.2 | Machine learning toolkit |
 | `lightgbm` | 4.6.0 | Gradient boosting models for tabular features |
+
+---
 
 #### Specifically for SSVEP task as meegkit toolbox has compatibility issue with others
 | Package | Version | Note |

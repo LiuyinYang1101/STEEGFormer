@@ -39,6 +39,16 @@ url={https://openreview.net/forum?id=5Xwm8e6vbh}
 }
 ```
 
+### 1. Methodology
+Our framework provides a transparent and rigorous benchmark for EEG foundation models by evaluating them across 6 distinct decoding protocols, ranging from standard population decoding to challenging zero-shot and transfer learning scenarios.
+
+<p align="center">
+  <img src="assets/graphic_overview.png" alt="ST-EEGFormer Architecture and Evaluation Protocols" width="700">
+</p>
+
+As a baseline for this benchmark, we introduce ST-EEGFormer: a minimal, ViT-based foundation model. To ensure transparency and ease of reproduction, the model is pre-trained purely through Masked Autoencoder (MAE) reconstruction.
+
+
 ## License
 
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details. 

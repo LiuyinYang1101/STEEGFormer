@@ -62,33 +62,24 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ---
 
-## 1. Environment
+## 3. Environment
 
 The models are implemented in **PyTorch** and can be used in standard Python environments.
 
 > **Python version used for pre-training:** `3.11.5`
 
-### 1.1 Core Dependencies (for loading & using the model)
+| Category | Package | Version | Note |
+| :--- | :--- | :---: | :--- |
+| **Core** | `torch` | 2.4.1 | Deep learning framework |
+| **Core** | `timm` | 1.0.10 | Transformer model implementations |
+| **Extra** | `wandb` | 0.22.2 | Experiment logging & monitoring |
+| **Extra** | `mat73` | 0.65 | Loading MATLAB v7.3 files |
+| **Extra** | `scikit-learn` | 1.3.2 | Evaluation metrics and utilities |
 
-| Package | Version | Note                                            |
-|---------|:-------:|-------------------------------------------------|
-| `timm`  | 1.0.10  | Basic implementations of transformer models     |
-| `torch` | 2.4.1   | Deep learning framework                         |
-
-### 1.2 Extra Dependencies (for training foundation & neural models)
-
-| Package        | Version | Note                                      |
-|----------------|:-------:|-------------------------------------------|
-| `wandb`        | 0.22.2  | Training monitoring & experiment logging  |
-| `mat73`        | 0.65    | Loading MATLAB v7.3 `.mat` data files     |
-| `scikit-learn` | 1.3.2   | Evaluation metrics and utilities          |
-
-### 1.3 Classic EEG Model Dependencies
-
+### 3.1 Classic EEG Model Dependencies
 If you want to run the training code for **classic EEG models**, you will also need:
-
 #### For all downstream tasks except SSVEP
-| Package | Version | Note |
+| Category | Package | Version | Note |
 | :--- | :---: | :--- |
 | `scipy` | 1.16.0 | General scientific computing utilities |
 | `numpy` | 1.25.2 | Core numerical computing library |

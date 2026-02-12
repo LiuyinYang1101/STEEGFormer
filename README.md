@@ -19,8 +19,7 @@
 > [**Are EEG Foundation Models Worth It? Comparative Evaluation with Traditional Decoders in Diverse BCI Tasks**](https://openreview.net/forum?id=5Xwm8e6vbh) (ICLR 2026)
 
 <p align="center">
-  <b>Liuyin Yang</b>, <b>Qiang Sun</b>, <b>Ang Li</b>, and <b>Marc Van Hulle</b>
-  <br>
+  <h3>Liuyin Yang, Qiang Sun, Ang Li, and Marc Van Hulle</h3>
   <b>Computational Neuroscience Group</b>, KU Leuven
 </p>
 

@@ -15,19 +15,14 @@
   <img src="https://img.shields.io/badge/license-MIT-green.svg" alt="License">
 </p>
 
-# ST-EEGFormer
 **Official PyTorch implementation of the paper:**
 > [**Are EEG Foundation Models Worth It? Comparative Evaluation with Traditional Decoders in Diverse BCI Tasks**](https://openreview.net/forum?id=5Xwm8e6vbh) (ICLR 2026)
 
----
-
-## Authors
-
-| **Liuyin Yang** | **Qiang Sun** | **Ang Li** | **Marc Van Hulle** |
-| :--- | :--- | :--- | :--- |
-| [liuyin.yang@kuleuven.be](mailto:liuyin.yang@kuleuven.be) | [qiang.sun@kuleuven.be](mailto:qiang.sun@kuleuven.be) | [ang_lii@outlook.com](mailto:ang_lii@outlook.com) | [marc.vanhulle@kuleuven.be](mailto:marc.vanhulle@kuleuven.be) |
-
-**Computational Neuroscience Group**, KU Leuven.
+<p align="center">
+  <b>Liuyin Yang</b>, <b>Qiang Sun</b>, <b>Ang Li</b>, and <b>Marc Van Hulle</b>
+  <br>
+  <b>Computational Neuroscience Group</b>, KU Leuven
+</p>
 
 
 ## License

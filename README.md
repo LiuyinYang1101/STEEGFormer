@@ -102,12 +102,12 @@ If you want to run the training code for **classic EEG models**, you will also n
 
 ---
 
-## 2. Model Specs
+## 4. Model Specs
 
 **ST-EEGFormer** is designed for **128 Hz EEG data**.
 
 - Pre-trained to reconstruct **6-second EEG segments**  
-- Supports up to **145 EEG channels**  
+- Supports up to **142 EEG channels**  
 - Recommended input: **≤ 6-second segments**, sampled at **128 Hz**
 
 The list of available/pretrained channels can be found in:
@@ -116,7 +116,7 @@ The list of available/pretrained channels can be found in:
 pretrain/senloc_file
 ```
 
-## 3. Quick Start
+## 5. Quick Start
 
 A Jupyter notebook containing a minimal tutorial on how to use the model can be found in:
 
@@ -124,7 +124,7 @@ A Jupyter notebook containing a minimal tutorial on how to use the model can be 
 easy_start/simple_example.ipynb
 ```
 
-## 4. Reproducibility
+## 6. Reproducibility
 
 If you want to pre-train a model, use the script:
 
@@ -155,7 +155,7 @@ eeg_foundation_2025
 where the models are slightly modified (they include additional channel embeddings for the HBN dataset).
 
 
-## 5. Pre-trained Models
+## 7. Pre-trained Models
 
 We release small, base, and large ST-EEGFormer models in the GitHub releases.
 

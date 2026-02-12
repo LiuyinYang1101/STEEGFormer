@@ -4,15 +4,13 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/python-3.11.5-blue.svg?logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/torch-2.4.1-ee4c2c.svg?logo=pytorch&logoColor=white" alt="PyTorch">
-  <img src="https://img.shields.io/badge/license-MIT-green.svg" alt="License">
-  <a href="https://openreview.net/forum?id=5Xwm8e6vbh">
-    <img src="https://img.shields.io/badge/OpenReview-ICLR'25-8c1b13.svg" alt="Paper">
-  </a>
   <a href="https://eeg2025.github.io/leaderboard/">
-    <img src="https://img.shields.io/badge/NeurIPS_2025_EEG_Foundation_Challenge-1st_Place-gold.svg?logo=google-scholar&logoColor=white" alt="NeurIPS Winner">
+    <img src="https://img.shields.io/badge/NeurIPS_2025_EEG_Foundation_Challenge-🥇_1st_Place-gold" alt="NeurIPS Winner">
   </a>
+  <a href="https://openreview.net/forum?id=5Xwm8e6vbh">
+    <img src="https://img.shields.io/badge/OpenReview-ICLR'26-8c1b13.svg" alt="Paper">
+  </a>
+  <img src="https://img.shields.io/badge/license-MIT-green.svg" alt="License">
 </p>
 
 *A fair EEG-BCI benchmark framework and a simple yet powerful ST-EEGFormer foundation model.*

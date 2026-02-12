@@ -18,6 +18,11 @@
   </p>
 </div>
 
+## 🔥 News 🔥
+* **[Jan 2026]** Our paper is **accepted to ICLR 2026**!
+* **[Dec 2025]** 🥇 We won **1st Place** in Challenge 1 of the **NeurIPS 2025 EEG Foundation Challenge**!
+* **[Jan 2025]** The original ST-EEGFormer paper was rejected from ICLR 2025
+
 ## Citation
 
 If you use our model or find it useful, please cite the following paper:

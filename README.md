@@ -18,9 +18,9 @@
 **Official PyTorch implementation of the paper:**
 > [**Are EEG Foundation Models Worth It? Comparative Evaluation with Traditional Decoders in Diverse BCI Tasks**](https://openreview.net/forum?id=5Xwm8e6vbh) (ICLR 2026)
 
+<h3 align="center">Liuyin Yang, Qiang Sun, Ang Li, and Marc Van Hulle</h3>
 <p align="center">
-  <h3>Liuyin Yang, Qiang Sun, Ang Li, and Marc Van Hulle</h3>
-  <b>Computational Neuroscience Group</b>, KU Leuven
+  <b>Computational Neuroscience Group, KU Leuven </b>
 </p>
 
 ## Citation

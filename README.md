@@ -154,6 +154,7 @@ eeg_foundation_2025
 
 where the models are slightly modified (they include additional channel embeddings for the HBN dataset).
 
+---
 
 ## 7. Pre-trained Models
 
@@ -169,3 +170,11 @@ Additionally, we provide large-ST-EEGFormerV2, which has undergone further pre-t
 
 [ST-EEGFormer-large release-HBN](https://github.com/LiuyinYang1101/STEEGFormer/releases/tag/ST-EEGFormer-largeV2).
 
+---
+
+## 8. Coming Soon 🚀
+
+We are now working on the following updates:
+
+* **Dataset Preprocessing Codes**: Standardized scripts for cleaning and formatting benchmarked datasets.
+* **Step-by-Step Tutorials**: More Jupyter notebooks demonstrating how to use the model.

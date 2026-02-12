@@ -16,7 +16,8 @@
 </p>
 
 # ST-EEGFormer
-**Official PyTorch implementation of the paper:** > [**Are EEG Foundation Models Worth It? Comparative Evaluation with Traditional Decoders in Diverse BCI Tasks**](https://openreview.net/forum?id=5Xwm8e6vbh)
+**Official PyTorch implementation of the paper:**
+> [**Are EEG Foundation Models Worth It? Comparative Evaluation with Traditional Decoders in Diverse BCI Tasks**](https://openreview.net/forum?id=5Xwm8e6vbh) (ICLR 2026)
 
 ---
 

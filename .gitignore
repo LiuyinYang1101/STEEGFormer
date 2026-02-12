@@ -1,0 +1,18 @@
+# Python bytecode (saves space)
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Environments (don't upload your whole conda/venv)
+venv/
+env/
+.env
+
+# HPC specific / Large Data
+*.log
+*.out
+results/
+data/
+*.pth
+*.ckpt
+

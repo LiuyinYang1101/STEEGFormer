@@ -4,6 +4,8 @@ EEG Conformer
 Convolutional Transformer for EEG decoding
 
 Couple CNN and Transformer in a concise manner with amazing results
+
+https://github.com/eeyhsong/EEG-Conformer
 """
 # remember to change paths
 

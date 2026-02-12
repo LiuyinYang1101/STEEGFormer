@@ -1,6 +1,7 @@
 # --------------------------------------------------------
 # Large Brain Model for Learning Generic Representations with Tremendous EEG Data in BCI
 # By Wei-Bang Jiang
+# https://github.com/935963004/LaBraM
 # Based on BEiT-v2, timm, DeiT, and DINO code bases
 # https://github.com/microsoft/unilm/tree/master/beitv2
 # https://github.com/rwightman/pytorch-image-models/tree/master/timm

@@ -1,3 +1,6 @@
+# DeepConvNet: Deep learning with convolutional neural networks for EEG decoding and visualization
+# https://pmc.ncbi.nlm.nih.gov/articles/PMC5655781/
+
 import torch
 from torch import nn
 '''

@@ -4,6 +4,7 @@ CBraMod
 A Criss-Cross Brain Foundation Model for EEG Decoding
 
 https://github.com/wjq-learning/CBraMod/tree/main
+
 """
 
 import torch

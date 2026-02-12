@@ -1,3 +1,7 @@
+# BIOT: Cross-data Biosignal Learning in the Wild
+# https://arxiv.org/abs/2305.10351
+# https://github.com/ycq091044/BIOT
+
 import time
 import math
 

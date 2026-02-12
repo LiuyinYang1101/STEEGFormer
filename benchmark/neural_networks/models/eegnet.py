@@ -1,3 +1,5 @@
+# EEGNet: A Compact Convolutional Network for EEG-based Brain-Computer Interfaces
+# https://arxiv.org/abs/1611.08024
 # down sample 125Hz
 import torch.nn as nn
 import torch

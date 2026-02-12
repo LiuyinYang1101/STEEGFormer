@@ -24,13 +24,6 @@
   <b>Computational Neuroscience Group</b>, KU Leuven
 </p>
 
-
-## License
-
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details. 
-
-> **Note:** The MIT license applies to the **source code** provided in this repository. The associated research paper, architectural diagrams, and the name "ST-EEGFormer" are © 2026 Computational Neuroscience Group, KU Leuven. All rights reserved.
-
 ## Citation
 
 If you use our model or find it useful, please cite the following paper:
@@ -45,6 +38,12 @@ year={2026},
 url={https://openreview.net/forum?id=5Xwm8e6vbh}
 }
 ```
+
+## License
+
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details. 
+
+> **Note:** The MIT license applies to the **source code** provided in this repository. The associated research paper, architectural diagrams, and the name "ST-EEGFormer" are © 2026 Computational Neuroscience Group, KU Leuven. All rights reserved.
 
 ---
 

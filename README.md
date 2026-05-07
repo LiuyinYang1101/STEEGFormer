@@ -19,6 +19,7 @@
 </div>
 
 ## 🔥 News 🔥
+* **[May 2026]** New step-by-step tutorial walking through dataset onboarding (preprocessing → `Dataset` class → YAML registration → dispatcher → training) using **BCI-IV-2A** as the worked example. See [`easy_start/bci_iv2a_dataset_tutorial.ipynb`](easy_start/bci_iv2a_dataset_tutorial.ipynb).
 * **[Jan 2026]** Our paper is **accepted to ICLR 2026**!
 * **[Dec 2025]** 🥇 We won **1st Place** in Challenge 1 of the **NeurIPS 2025 EEG Foundation Challenge**!
 * **[Jan 2025]** The original ST-EEGFormer paper was rejected from ICLR 2025
@@ -124,6 +125,14 @@ A Jupyter notebook containing a minimal tutorial on how to use the model can be 
 easy_start/simple_example.ipynb
 ```
 
+For a complete walkthrough of adding a new downstream dataset to the benchmark pipeline — raw data → preprocessing → `Dataset` class → YAML registration → dispatcher → training — see:
+
+```text
+easy_start/bci_iv2a_dataset_tutorial.ipynb
+```
+
+The tutorial uses **BCI Competition IV-2A** as the worked example and ends with a sanity-check training cell that reproduces a per-subject decoding run comparing EEGNet, ST-EEGFormer-small, and ST-EEGFormer-large with the production training recipe.
+
 ## 6. Reproducibility
 
 If you want to pre-train a model, use the script:
@@ -145,6 +154,8 @@ For dataset preparation and configuration details, please refer to the README fi
 ```text
 benchmark/neural_networks
 ```
+
+For an end-to-end worked example using BCI-IV-2A, follow [`easy_start/bci_iv2a_dataset_tutorial.ipynb`](easy_start/bci_iv2a_dataset_tutorial.ipynb).
 
 For the EEG 2025 Foundation Challenge, the code is located in:
 
@@ -176,5 +187,5 @@ Additionally, we provide large-ST-EEGFormerV2, which has undergone further pre-t
 
 We are now working on the following updates:
 
-* **Dataset Preprocessing Codes**: Standardized scripts for cleaning and formatting benchmarked datasets.
+* **Dataset Preprocessing Codes**: Standardized scripts for cleaning and formatting benchmarked datasets. *(BCI-IV-2A is available now in [`easy_start/bci_iv2a_dataset_tutorial.ipynb`](easy_start/bci_iv2a_dataset_tutorial.ipynb); the rest are rolling out one by one.)*
 * **Step-by-Step Tutorials**: More Jupyter notebooks demonstrating how to use the model.

@@ -1,0 +1,29 @@
+# BCI Competition IV-2a, 4-class motor imagery, 22 channels.
+# The full worked example for this dataset lives in
+# easy_start/bci_iv2a_dataset_tutorial.ipynb (preprocess .mat -> per-subject A{sub}.pkl).
+# This YAML mirrors the config used there.
+data:
+  path: /path/to/datasets/bci_comp_iv2a/    # raw A0{sub}T.mat / A0{sub}E.mat
+
+channels:
+  n_channels: 22
+  names: [Fz, FC3, FC1, FCz, FC2, FC4, C5, C3, C1, Cz, C2, C4,
+          C6, CP3, CP1, CPz, CP2, CP4, P1, Pz, P2, POz]
+
+filter:
+  l_freq: 0.1
+  h_freq: 75.0
+  notch: [50, 100]          # mains + 1st harmonic (50 Hz region); use [60, 120] for 60 Hz regions
+
+resample_freq: 256
+
+events:
+  mapping: {1: left_hand, 2: right_hand, 3: feet, 4: tongue}
+
+epochs:
+  tmin: 2.0                 # cue onset
+  tmax: 6.0                 # 4 s motor-imagery window -> (6-2)*256 = 1024 samples
+  baseline: null
+
+output:
+  dir: /path/to/outputs/bci_iv2a_processed

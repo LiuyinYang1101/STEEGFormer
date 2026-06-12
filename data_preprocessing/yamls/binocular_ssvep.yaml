@@ -1,0 +1,82 @@
+# Binocular-rivalry SSVEP, 40-class, 64 channels, 250 Hz.
+# Single stage: preprocess.py reads per-subject CSV -> per-subject .pkl {data, df, splits}.
+data:
+  path: /path/to/datasets/binocular_ssvep    # folder of per-subject *.csv
+
+channels:
+  n_channels: 64
+  names:
+    - FP1
+    - FPZ
+    - FP2
+    - AF3
+    - AF4
+    - F7
+    - F5
+    - F3
+    - F1
+    - FZ
+    - F2
+    - F4
+    - F6
+    - F8
+    - FT7
+    - FC5
+    - FC3
+    - FC1
+    - FCZ
+    - FC2
+    - FC4
+    - FC6
+    - FT8
+    - T7
+    - C5
+    - C3
+    - C1
+    - Cz
+    - C2
+    - C4
+    - C6
+    - T8
+    - M1
+    - TP7
+    - CP5
+    - CP3
+    - CP1
+    - CPz
+    - CP2
+    - CP4
+    - CP6
+    - TP8
+    - M2
+    - P7
+    - P5
+    - P3
+    - P1
+    - Pz
+    - P2
+    - P4
+    - P6
+    - P8
+    - PO7
+    - PO5
+    - PO3
+    - POz
+    - PO4
+    - PO6
+    - PO8
+    - I1
+    - O1
+    - Oz
+    - O2
+    - I2
+
+fs: 250
+sliding_window:
+  window_size_s: 1.0      # 1 s window -> 250 samples (= data_length / task_time)
+  step_size_s: 0.1        # 100 ms hop
+repeats: 5                # epochs (repeats) per target
+n_targets: 40
+
+output:
+  dir: /path/to/outputs/binocular_ssvep_processed   # per-subject {subject}.pkl (consumed by BinocularSSVEPDataset)

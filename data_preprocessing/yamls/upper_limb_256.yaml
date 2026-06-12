@@ -1,0 +1,102 @@
+# Upper-Limb movement (Ofner et al. 2017), 7-class, 61 channels, 256 Hz variant.
+# Same pipeline as upper_limb.yaml, but a wider band and 256 Hz resampling (used for the
+# EEGPT/BENDR 256 Hz baselines; LaBraM/CBraMod consume a 200 Hz re-resampled copy).
+data:
+  path: /path/to/datasets/upper_limb
+  pattern: "(?P<task>motorimagination|motorexecution)_(?P<subject>[^_]+)_run(?P<run>\\d+)\\.gdf"
+
+channels:
+  n_channels: 61
+  names:
+    - F3
+    - F1
+    - Fz
+    - F2
+    - F4
+    - FFC5h
+    - FFC3h
+    - FFC1h
+    - FFC2h
+    - FFC4h
+    - FFC6h
+    - FC5
+    - FC3
+    - FC1
+    - FCz
+    - FC2
+    - FC4
+    - FC6
+    - FTT7h
+    - FCC5h
+    - FCC3h
+    - FCC1h
+    - FCC2h
+    - FCC4h
+    - FCC6h
+    - FTT8h
+    - C5
+    - C3
+    - C1
+    - Cz
+    - C2
+    - C4
+    - C6
+    - TTP7h
+    - CCP5h
+    - CCP3h
+    - CCP1h
+    - CCP2h
+    - CCP4h
+    - CCP6h
+    - TTP8h
+    - CP5
+    - CP3
+    - CP1
+    - CPz
+    - CP2
+    - CP4
+    - CP6
+    - CPP5h
+    - CPP3h
+    - CPP1h
+    - CPP2h
+    - CPP4h
+    - CPP6h
+    - P3
+    - P1
+    - Pz
+    - P2
+    - P4
+    - PPO1h
+    - PPO2h
+
+filter:
+  l_freq: 0.1
+  h_freq: 75.0
+  notch: [100, 150, 200]
+
+resample_freq: 256
+
+events:
+  mapping:
+    1536: elbow_flexion
+    1537: elbow_extension
+    1538: supination
+    1539: pronation
+    1540: hand_close
+    1541: hand_open
+    1542: rest
+
+epochs:
+  tmin: 0.0
+  tmax: 3.0          # mne tmax is inclusive -> 769 samples @256Hz; truncated to data_length=768 by UpperLimbDataset
+  baseline: null
+
+consolidate:
+  experiments: [motorimagination, motorexecution]
+  n_splits: 5
+  random_state: 47
+  out_dir: /path/to/outputs/upper_limb_256_processed/consolidate
+
+output:
+  dir: /path/to/outputs/upper_limb_256_processed

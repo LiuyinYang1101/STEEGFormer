@@ -1,0 +1,30 @@
+# Inner Speech (Nieto et al. 2022, OpenNeuro ds003626), 4-class imagined directions.
+#
+# This pipeline consumes the dataset's published *derivatives* (pre-epoched MNE files:
+# derivatives/sub-XX/ses-YY/*_eeg-epo.fif + *_events.dat), loaded via inner_speech/utils.py
+# (vendored from the Nieto "Thinking out loud" tutorial repo). Download the derivatives
+# alongside the raw data from OpenNeuro ds003626.
+data:
+  path: /path/to/datasets/inner_speech    # ds003626 root containing derivatives/
+
+channels:
+  n_channels: 128
+  # BioSemi-128 acquisition order (A1..A32, B1..B32, C1..C32, D1..D32).
+  # util/dataset_specs.yaml lists the equivalent standard_1005 names in this same order.
+
+subjects: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+sessions: [1, 2, 3]
+
+fs: 256                # sampling rate of the *_eeg-epo.fif derivatives
+crop:
+  tmin: 0.5            # action-interval start (s) within each epoch
+  tmax: 3.5            # window = (tmax - tmin) * fs = 3 * 256 = 768 samples
+
+classes: [Arriba/Imagined, Abajo/Imagined, Derecha/Imagined, Izquierda/Imagined]
+
+folds:
+  n_splits: 5
+  random_state: 42
+
+output:
+  dir: /path/to/outputs/inner_speech_processed   # per-subject sub{N}.h5 (consumed by InnerSpeechDataset)

@@ -1,0 +1,24 @@
+# Alzheimer's resting-state EEG (OpenNeuro ds004504), 3-class C/A/F.
+# Resting EEG is segmented into non-overlapping windows (no event mapping).
+data:
+  path: /path/to/datasets/alzheimer/ds004504-download   # folder of sub-XXX/eeg/*_task-eyesclosed_eeg.set
+  participants_tsv: /path/to/datasets/alzheimer/ds004504-download/participants.tsv
+
+channels:
+  n_channels: 19
+  names: [Fp1, Fp2, F3, F4, C3, C4, P3, P4, O1, O2, F7, F8, T3, T4, T5, T6, Fz, Cz, Pz]
+
+filter:
+  l_freq: 0.1
+  h_freq: 75.0
+  notch: [50, 62.5, 125]
+
+resample_freq: 256
+
+epochs:
+  tmin: 0.0
+  tmax: 3.0          # window length = (tmax - tmin) * resample_freq = 3 * 256 = 768 samples
+  baseline: null
+
+output:
+  dir: /path/to/outputs/alzheimer_processed
